@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="671.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EmployeeNotificationWorkScene_g2Controller">
+   <children>
+      <Label layoutX="264.0" layoutY="18.0" text="Works Due" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <TableView fx:id="upcomingWorksTableView" layoutX="28.0" layoutY="299.0" prefHeight="159.0" prefWidth="627.0">
+         <columns>
+            <TableColumn fx:id="taskUpcomingTableColumn" prefWidth="458.39995193481445" text="Task" />
+            <TableColumn fx:id="dueDateUpcomingTableColumn" prefWidth="172.79998779296875" text="Due Date" />
+         </columns>
+      </TableView>
+      <Label layoutX="38.0" layoutY="269.0" text="Upcoming Works:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="92.0" text="Ongoing Works:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="28.0" layoutY="25.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="30.0" prefWidth="65.0" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="524.0" layoutY="475.0" mnemonicParsing="false" onAction="#markAsDoneOnAction" prefHeight="37.0" prefWidth="131.0" text="Mark as done">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <TableView fx:id="ongoingWorksTableView" layoutX="28.0" layoutY="113.0" prefHeight="132.0" prefWidth="627.0">
+         <columns>
+            <TableColumn fx:id="taskOngoingTableColumn" prefWidth="461.60002517700195" text="Task" />
+            <TableColumn fx:id="dueDateOngoingTableColumn" minWidth="0.0" prefWidth="175.20001220703125" text="Due Date" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

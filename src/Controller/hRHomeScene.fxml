@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="690.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ExecutiveCommitteeHomeSceneController">
+   <children>
+      <Label layoutX="221.0" layoutY="33.0" text="Human Resource" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="22.0" layoutY="119.0" mnemonicParsing="false" onAction="#accessOfComplainButtonOnAction" prefHeight="38.0" prefWidth="302.0" text="Access Of Complain">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="290.0" layoutY="430.0" mnemonicParsing="false" onAction="#signOutButtonOnAction" prefHeight="31.0" prefWidth="110.0" text="Sign Out">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="377.0" layoutY="120.0" mnemonicParsing="false" onAction="#enrollButtonOnAction" prefHeight="38.0" prefWidth="302.0" text="Enroll and Set Info">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="22.0" layoutY="251.0" mnemonicParsing="false" onAction="#accessAndValidateLeaveRequestButtonOnAction" prefHeight="38.0" prefWidth="302.0" text="Access and Validate Leave Request">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="378.0" layoutY="251.0" mnemonicParsing="false" onAction="#setMeetingButtonOnAction" prefHeight="38.0" prefWidth="301.0" text="Set Meeting">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="199.0" layoutY="361.0" mnemonicParsing="false" onAction="#joinEmergencyMeetingButtonOnAction" prefHeight="38.0" prefWidth="302.0" text="Join Emergency Meeting">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

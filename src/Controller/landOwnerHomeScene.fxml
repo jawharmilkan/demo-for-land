@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="668.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GeneralMemberHomeSceneController">
+   <children>
+      <Label layoutX="245.0" layoutY="34.0" prefHeight="46.0" prefWidth="263.0" text="Land Owner" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="279.0" layoutY="435.0" mnemonicParsing="false" onAction="#signOutButtonOnAction" prefHeight="31.0" prefWidth="110.0" text="Sign Out">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="393.0" layoutY="132.0" mnemonicParsing="false" onAction="#userInfoButtonOnAction" prefHeight="38.0" prefWidth="244.0" text="User Info">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="35.0" layoutY="231.0" mnemonicParsing="false" onAction="#fileAcomplainButtonOnAction" prefHeight="38.0" prefWidth="244.0" text="File a Complain">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="393.0" layoutY="231.0" mnemonicParsing="false" onAction="#followUpComplaintButtonOnAction" prefHeight="38.0" prefWidth="244.0" text="Progress Of Complain">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="35.0" layoutY="321.0" mnemonicParsing="false" onAction="#joinMeetingButtonOnAction" prefHeight="38.0" prefWidth="244.0" text="Join Meeting">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="393.0" layoutY="321.0" mnemonicParsing="false" onAction="#govtFeesButtonOnAction" prefHeight="38.0" prefWidth="244.0" text="Govt. Fees">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="35.0" layoutY="132.0" mnemonicParsing="false" onAction="#messageButtonOnAction" prefHeight="38.0" prefWidth="244.0" text="Message">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

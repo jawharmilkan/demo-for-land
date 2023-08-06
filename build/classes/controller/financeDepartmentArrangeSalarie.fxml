@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="702.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FinanceCommitteeArrangeSalarieController">
+   <children>
+      <Label layoutX="261.0" layoutY="3.0" prefHeight="72.0" prefWidth="231.0" text="Arrange Salary" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="13.0" layoutY="36.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="39.0" prefWidth="97.0" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="22.0" layoutY="82.0" prefHeight="54.0" prefWidth="220.0" text="Salary Info:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TableView fx:id="salaryTableView" layoutX="5.0" layoutY="125.0" prefHeight="273.0" prefWidth="694.0">
+        <columns>
+          <TableColumn fx:id="employeeNameTableColumn" prefWidth="353.5999755859375" text="Employee Name" />
+            <TableColumn fx:id="salaryTableColumn" minWidth="0.0" prefWidth="183.199951171875" text="Salary" />
+            <TableColumn fx:id="bonusAmountTableColumn" minWidth="0.0" prefWidth="176.0" text="Bonus Amount" />
+        </columns>
+      </TableView>
+      <TextField fx:id="salaryTextField" layoutX="190.0" layoutY="452.0" prefHeight="39.0" prefWidth="324.0" />
+      <TextField fx:id="bonusTextField" layoutX="190.0" layoutY="499.0" prefHeight="39.0" prefWidth="324.0" />
+      <Button layoutX="528.0" layoutY="491.0" mnemonicParsing="false" onAction="#saveButtonOnAction" prefHeight="39.0" prefWidth="171.0" text="Save">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="45.0" layoutY="445.0" prefHeight="54.0" prefWidth="131.0" text="Salary :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="491.0" prefHeight="46.0" prefWidth="131.0" text="Bonus :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTextField" layoutX="190.0" layoutY="406.0" prefHeight="39.0" prefWidth="324.0" />
+      <Label layoutX="45.0" layoutY="399.0" prefHeight="54.0" prefWidth="131.0" text="Name:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

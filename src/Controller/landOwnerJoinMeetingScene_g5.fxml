@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="687.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GeneralMemberJoinMeetingScene_g5Controller">
+   <children>
+      <Label layoutX="270.0" layoutY="30.0" text="Join Meeting" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="21.0" layoutY="22.0" mnemonicParsing="false" onAction="#backButtonOnClick" text="Back">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label layoutX="42.0" layoutY="94.0" text="Meeting Info:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="151.0" text="Meeting Date:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="meetingDateTextField" layoutX="209.0" layoutY="148.0" prefHeight="26.0" prefWidth="437.0" />
+      <Label layoutX="42.0" layoutY="250.0" text="Meeting Time:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="meetingTimeTextField" layoutX="210.0" layoutY="247.0" prefHeight="26.0" prefWidth="437.0" />
+      <Label layoutX="39.0" layoutY="302.0" text="Meeting Location:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="meetingLocationTextField" layoutX="212.0" layoutY="299.0" prefHeight="26.0" prefWidth="437.0" />
+      <Label layoutX="42.0" layoutY="197.0" text="Meeting Type:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="meetingTypeTextField" layoutX="209.0" layoutY="194.0" prefHeight="26.0" prefWidth="438.0" />
+      <Label layoutX="38.0" layoutY="356.0" text="Meeting Link:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="meetingLinkTextField" layoutX="211.0" layoutY="353.0" prefHeight="26.0" prefWidth="437.0" />
+      <Label layoutX="39.0" layoutY="403.0" text="Set by:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="setByTextField" layoutX="212.0" layoutY="400.0" prefHeight="26.0" prefWidth="437.0" />
+   </children>
+</AnchorPane>

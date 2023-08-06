@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="682.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EmployeeTransferMoneyScene2_g3Controller">
+   <children>
+      <Label layoutX="252.0" layoutY="29.0" text="Transfer Money" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="134.0" text="Month:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="67.0" layoutY="251.0" text="Amount:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="amountTextField" layoutX="250.0" layoutY="248.0" prefHeight="26.0" prefWidth="350.0" />
+      <Button layoutX="491.0" layoutY="400.0" mnemonicParsing="false" onAction="#sendButtonOnAction" prefHeight="31.0" prefWidth="144.0" text="Send">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="31.0" layoutY="32.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="67.0" layoutY="306.0" text="Bonus:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="bonusTextField" layoutX="250.0" layoutY="303.0" prefHeight="26.0" prefWidth="350.0" />
+      <ComboBox fx:id="monthComboBox" layoutX="252.0" layoutY="132.0" prefHeight="26.0" prefWidth="350.0" />
+      <Label layoutX="67.0" layoutY="195.0" text="Transaction Method:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="transactionMethodComboBox" layoutX="252.0" layoutY="193.0" prefHeight="26.0" prefWidth="350.0" />
+   </children>
+</AnchorPane>

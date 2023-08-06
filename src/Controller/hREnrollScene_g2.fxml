@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="682.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ExecutiveCommitteeEnrollScene_g2Controller">
+   <children>
+      <Label layoutX="254.0" layoutY="29.0" text="Create Account" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="185.0" text="Account Username:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="67.0" layoutY="263.0" text="Account Password:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="usernameTextField" layoutX="258.0" layoutY="182.0" prefHeight="26.0" prefWidth="342.0" />
+      <TextField fx:id="passwordTextField" layoutX="258.0" layoutY="258.0" prefHeight="26.0" prefWidth="342.0" />
+      <Button layoutX="491.0" layoutY="400.0" mnemonicParsing="false" onAction="#saveButtonOnAction" prefHeight="31.0" prefWidth="144.0" text="Save">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="31.0" layoutY="32.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="67.0" layoutY="109.0" text="Account Usertype:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="userTypeComboBox" layoutX="258.0" layoutY="106.0" prefHeight="26.0" prefWidth="342.0" />
+      <Button layoutX="55.0" layoutY="400.0" mnemonicParsing="false" onAction="#setUserInfoButtonOnAction" prefHeight="31.0" prefWidth="144.0" text="Set User Info">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

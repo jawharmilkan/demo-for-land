@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="649.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EmployeeHomeSceneController">
+   <children>
+      <Label layoutX="254.0" layoutY="36.0" text="Employee" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="50.0" layoutY="134.0" mnemonicParsing="false" onAction="#viewEmployeeInfoButtonOnAction" prefHeight="38.0" prefWidth="220.0" text="View Employee Info">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="270.0" layoutY="439.0" mnemonicParsing="false" onAction="#signOutButtonOnAction" prefHeight="31.0" prefWidth="110.0" text="Sign Out">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="368.0" layoutY="134.0" mnemonicParsing="false" onAction="#worksDueButtonOnAction" prefHeight="38.0" prefWidth="220.0" text="Works Due">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="50.0" layoutY="231.0" mnemonicParsing="false" onAction="#salaryButtonOnAction" prefHeight="38.0" prefWidth="220.0" text="Salary">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="368.0" layoutY="231.0" mnemonicParsing="false" onAction="#fileAcomplainButtonOnAction" prefHeight="38.0" prefWidth="220.0" text="File a Complain">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="215.0" layoutY="337.0" mnemonicParsing="false" onAction="#leaveOfapplicationButtonOnAction" prefHeight="38.0" prefWidth="220.0" text="Leave of Application">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
